@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Equipe Enki">
+    <meta name="description" content="site para estudos">
+    <meta name="keywords" content="português , matemática , biologia , química , física , história , geografia , sociologia , filosofia , astronomia , tecnologia , atualidades , vestibulares , enem , questões , disciplinas , matérias , estudos">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="content language" content="pt-br, en-US">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="copyright" content="© 2024 Grupo Enki" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="robots" content="noindex,follow">
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta name="generator" content="Visual Studio Code" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="rating" content="general" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward_ios" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <title>Pagína Inicial</title>
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="sidebar-inner">
+            <header class="sidebar-header">
+                <button type="button" class="sidebar-burger" onclick="toggleSidebar()">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </header>
+
+            <nav class="sidebar-menu">
+                <button type="button">
+                    <i class='bx bx-home' ></i>
+                    <a href=".home.html"><span>inicio</span></a>
+                </button>
+                <button type="button" >
+                    <i class='bx bx-user' ></i>
+                    <a href=".login.html"><span>conta</span></a>
+                </button>
+                <button type="button" class="has-border">
+                    <i class='bx bx-comment-dots'></i>
+                    <a href=".credits.html"><span>créditos</span></a>
+                </button>
+                <button type="button">
+                    <i class='bx bx-book-open'></i>
+                    <a href=""><span>matérias</span></a>
+                </button>
+                <button type="button">
+                    <i class='bx bx-news' ></i>
+                    <a href=".noticias.html"><span>notícias</span></a>
+                </button>
+                <button type="button">
+                    <i class='bx bx-detail' ></i>
+                    <a href=""><span>questões</span></a>
+                </button>
+                <button type="button" class="has-border">
+                    <i class='bx bx-award' ></i>
+                    <a href=""><span>simulados</span></a>
+                </button>
+                <button type="button">
+                    <i class='bx bx-book' ></i>
+                    <a href=""><span>termos de uso</span></a>
+                </button>
+                <button type="button">
+                    <i class='bx bx-lock' ></i>
+                    <a href=""><span>política de <br>privacidade</span></a>
+                </button>
+            </nav>
+        </div>
+    </nav>
+
+    <main class="content">
+        <div class="cta">
+            <H1 class="title">
+                Maratona para o
+                <span>Enem</span>
+            </H1>
+            <p class="description">
+                Maratona 30 dias para o Enem, revisões,
+                exercícios e simulados.
+            </p>
+            <div class="cta_button">
+                <a href="" class="cta_btn1">
+                    Veja Mais
+                </a>      
+            </div>
+            <div class="cta_social">
+                <a href="">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="">
+                    <i class='bx bxl-reddit'></i>
+                </a>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="img/estudante.png" alt="estudante_img">
+        </div>
+        <div class="shape"></div>
+        
+    </main>
+    <div id="container">
+        <!-- Input de pesquisa -->
+        <div class="input-group">
+            <!-- Ícone da lupa -->
+            <div class="input-icon">
+                <i class='bx bx-search'></i>
+            </div>
+
+            <!-- Campo de input de pesquisa -->
+            <input 
+                id="search" 
+                type="text" 
+                class="input-field" 
+                placeholder="Pesquisar"
+            >
+        </div>
+                <!-- Lista de itens -->
+                <ul class="items">
+                    <!-- Item 1 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Matemática
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 2 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                               Equação de 1ºgrau
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 3 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Equação de 2ºgrau
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 4 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Regra de 3
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 5 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Juros Compostos
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 6 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Pirâmide
+                            </p>
+                        </div>
+                    </li>
+        
+        
+                    <!-- Item 7 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Angulos
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 8 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Números Irracionais
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 9 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Análise Combinatória
+                            </p>
+                        </div>
+                    </li>
+        
+                     <!-- Item 10 -->
+                     <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Porcentagem
+                            </p>
+                        </div>
+                    </li>
+        
+                     <!-- Item 11 -->
+                     <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Área do quadrado
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 12 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Desvio Padrão
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 13 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Média, Moda e Mediana
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 14 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Frações
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 15 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Seno, Cosseno e Tangente
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 16 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Números Racionais
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 17 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Teorema de Pitágoras
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 18 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Área e Perímetro
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 19 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Matemática</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Área do círculo
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 20 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Português
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 21 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Gramática
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 22 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Tipos de sujeito
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 23 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Concordância Verbal
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 24 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Sílaba Tônica
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 25 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Substantivo derivado
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 26 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Concordância Nominal
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 27 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Adjunto Adnominal
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 28 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Pronomes relativos
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 29 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Substantivo Comum
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 30 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Sintaxe
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 31 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Uso do Til
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 32 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Demais ou De Mais
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 33 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Notações Léxicas
+                            </p>
+                        </div>
+                    </li>
+                    
+        
+                    <!-- Item 34 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Acento Circunflexo
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 35 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Intertextualidade
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 36 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Compreensão e interpretação de textos
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <!-- Item 37 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Gênero Textual Notícia
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 38 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Português</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Linguagem Formal e Informal
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 39 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Rosa dos Ventos
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 40 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Oceania
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 41 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Movimentos da Terra
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 42 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Petróleo
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 43 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Economia da África
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 44 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Amazônia: características do bioma
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 45 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Cartografia
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 46 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Coordenadas Geográficas: como ler e localizar
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 47 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Geografia do Brasil
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 48 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Guerra na Síria
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 49 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Tipos de clima do mundo: quais são e características
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 50 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Continentes do Mundo
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 51 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Capitalismo Comercial
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <!-- Item 52 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Taylorismo
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 53 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Fordismo
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 54 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Floresta Tropical
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <!-- Item 55 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Era Glacial
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 56 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">Geografia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Bacia Sedimentar
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 57 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                história
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 58 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Divisão dos Séculos
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 59 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Civilização Egípcia
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 60 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                As Grandes Navegações
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 61 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Terceira Revolução Industrial
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 62 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Ciclo do Café
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 63 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Império Romano
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 64 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Reforma Protestante
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 65 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Independência do Brasil
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 66 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Democracia Ateniense
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 67 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Tipos de Preconceito
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 68 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Nazismo
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 69 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Três Poderes
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 70 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Arte Indígena Brasileira
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 71 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Preconceito Linguístico
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 72 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Revolução Agrícola
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 73 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Belerofonte
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 74 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Arte Medieval
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 75 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">história</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Segunda Guerra Mundial (1939 - 1945)
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 76 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                física
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 77 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Hidrostática
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 78 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Teoria do Big Bang
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 79 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Campo Magnético
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 80 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Conversão de unidades
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 81 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Calor e Temperatura
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 82 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Força de Atrito
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 83 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Propriedades do Ar
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 84 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Diferença de Potencial
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 85 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Segunda Lei de Newton
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 86 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Circuito Elétrico
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 87 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Lançamento Oblíquo
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 88 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Galileu Galilei
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 89 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Calor Latente
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 90 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Força Peso
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 91 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Isaac Newton
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 92 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Unidades de Medida
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 93 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Tipos de Energia
+                            </p>
+                        </div>
+                    </li>
+                    
+                    <!-- Item 94 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">física</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                Processos de Eletrização
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 95 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">química</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                química
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Item 114 -->
+                    <li class="item">
+                        <!-- Conteúdo do item -->
+                        <div class="item-content">
+                            <!-- Título -->
+                            <h2 class="item-title">biologia</h2>
+                            <!-- Descrição -->
+                            <p class="item-description">
+                                biologia
+                            </p>
+                        </div>
+                    </li>
+        
+                    <!-- Mensagem "nenhum resultado encontrado" -->
+                    <li id="no_results">
+                        <p>Nenhum resultado encontrado</p>
+                    </li>
+                </ul>
+            </div>
+
+            
+
+    <script type="text/javascript">
+        const toggleSidebar = () => document.body.classList.toggle("open");
+    </script>
+    <script src="scripts/searchbar.js"></script>
+
+</body>
+</html>
